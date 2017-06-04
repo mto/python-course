@@ -47,7 +47,7 @@ Mỗi buổi học học viên sẽ được giao các bài tập thực hành g
 
 14. Xuất dữ liệu ra các định dạng Excel/csv
 
-15. Sử dụng logging trong Python
+15. Debug và logging trong Python
 
 ### Bài 6:
 
