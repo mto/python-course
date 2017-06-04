@@ -1,7 +1,7 @@
 Nội dung buổi học đầu tiên:
 
 - Cài đặt môi trường làm việc với Python
-- Làm quen với syntax của Python thông qua bài tập lập trình
+- Làm quen với syntax của Python
 
 
 

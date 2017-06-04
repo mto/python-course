@@ -4,5 +4,4 @@ Nội dung buổi học:
 
 - Input/Output
 
-- Cấu trúc project Python
 
