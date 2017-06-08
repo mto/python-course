@@ -75,7 +75,7 @@ ABCXYZ
 
 __**Bài tập 1:**__
 
-Tạo file Python (ex_1.py) in ra tên, tuổi, nghề nghiệp và email của học viên tương tự như đoạn code dưới đây và chạy file Python trên cửa sổ **cmd**
+*Tạo file Python (ex_1.py) in ra tên, tuổi, nghề nghiệp và email của học viên tương tự như đoạn code dưới đây và chạy file Python trên cửa sổ* **cmd**
 
 ```python
 print('Minh Hoang TO')
@@ -99,7 +99,7 @@ def method_name(arg1[,arg2[,arg3[...]]]):
 
 __**Bài tập 2:**__
 
-Tạo file Python ex_2.py có chứa method *print_user* nhận 4 tham số đầu vào *name, age, job, email* và in ra màn hình các tham số này
+*Tạo file Python ex_2.py có chứa method *print_user* nhận 4 tham số đầu vào *name, age, job, email* và in ra màn hình các tham số này*
 
 ```python
 def print_user(name, age, job, email):
@@ -130,7 +130,7 @@ for i in range(0,10):
 
 __**Bài tập 3:**__
 
-Tạo file ex_3.py in ra màn hình tất cả các số nguyên từ 1->100
+*Tạo file ex_3.py in ra màn hình tất cả các số nguyên từ 1->100*
 
 ### 2.4 *if/else* trong Python
 
@@ -165,6 +165,81 @@ else:
 
 __**Bài tập 4:**__
 
-Tạo file ex_4.py in ra màn hình các số nguyên lẻ nằm trong khoảng từ 1->100, nằm trên cùng 1 dòng và cách nhau bởi dấu ','
+*Tạo file ex_4.py in ra màn hình các số nguyên lẻ nằm trong khoảng từ 1->100, nằm trên cùng 1 dòng và cách nhau bởi dấu ','*
 
-## Cấu trúc dữ liệu *list*
+__**Bài tập 5:**__
+
+*Tạo file ex_5.py in **từ từ** 100 ký tự '|' ra màn hình và nằm trên cùng 1 dòng*
+
+__Chú ý__:
+
+Python cung cấp hàm *sleep* trong module *time* cho phép dừng tạm thời *execution* của chương trình trong một khoảng thời gian xác định. Để làm bài tập 5 ta cần đoạn mã sau
+
+```python
+import time
+
+for i in range(0,100):
+    ...
+    time.sleep(0.2)
+```
+
+## 3. Cấu trúc dữ liệu *list*
+
+### 3.1 Hình dung khái niệm *list* qua code mẫu
+
+Copy/paste và chạy các đoạn mã sau đây
+
+```python
+l = [1,2,3,4,5,6]
+print(l)
+```
+
+```python
+l = [1,2,3,4,5,6]
+l.append('abc')
+l.append('def')
+print(l)
+```
+
+```python
+l = []
+for i in range(1,7):
+    l.append(i)
+print(l)
+```
+
+__**Bài tập 6:**__
+
+*Tạo file ex_6.py có khai báo một list rỗng và thêm vào trong list các số chia hết cho 5 nằm trong khoảng từ 1->100. Sau đó in list ra màn hình*
+
+### 3.6 Vòng lặp trên *list*
+
+```python
+l = [1,3,5,'abc',9]
+
+for x in l:
+    print(x)
+```
+
+__**Bài tập 7:**__
+
+*Tạo file ex_7.py có chứa hàm filter(l, rex) nhận đầu vào là list các chuỗi ký tự và trả về
+list các chuỗi ký tự có prefix là chuỗi rex*
+
+Ví dụ:
+
+filter(['abc', 'aabc', 'aaab'], 'aa') trả về list ['aabc', 'aaab']
+
+__**Bài tập 8:**__
+
+*Tạo file ex_8.py trả về list các file Python trong thư mục hiện tại*
+
+__Chú ý:
+
+Cần dùng đoạn mã sau để lấy danh sách các file nằm trong thư mục hiện tại
+
+```python
+import os
+
+os.listdir('.')
+```
