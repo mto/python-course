@@ -232,9 +232,9 @@ filter(['abc', 'aabc', 'aaab'], 'aa') trả về list ['aabc', 'aaab']
 
 __**Bài tập 8:**__
 
-*Tạo file ex_8.py trả về list các file Python trong thư mục hiện tại*
+*Tạo file ex_8.py in ra màn hình các file Python trong thư mục hiện tại*
 
-__Chú ý:
+__Chú ý__:
 
 Cần dùng đoạn mã sau để lấy danh sách các file nằm trong thư mục hiện tại
 
