@@ -73,7 +73,7 @@ python bootstrap.py > out.
 
 https://docs.python.org/3/library/functions.html#input
 
-__Chú ý__:
+__Chú ý:__
 
 Method *input* được định nghĩa trong *builtins* module của Python nên việc sử dụng không đòi hỏi *import* statement nào
 
@@ -85,7 +85,7 @@ __**Bài tập 2:**__
 
 *Tạo file ex_2.py nhận input là output của câu lệnh 'dir' (trên Windows) hoặc 'ls -l' (trên Linux/Mac) và in ra màn hình toàn bộ input*
 
-__Chú ý__:
+__Chú ý:__
 
 Để chạy bài tập 2 ta dùng
 
@@ -97,8 +97,15 @@ python ex_2.py < list_file_out.txt
 
 __**Bài tập 3:**__
 
-*Tạo file ex_3.py in ra màn hình nội dung của file input ['meminfo.txt'](https://raw.githubusercontent.com/mto/python-course/master/Session2/meminfo.txt)*
+*Tạo file ex_3.py nhận stdin là file [meminfo.txt](https://raw.githubusercontent.com/mto/python-course/master/Session2/meminfo.txt) và in ra màn hình toàn bộ nội dung của input file*
 
+__Chú ý:__
+
+Để chạy bài tập 3 ta cần download file meminfo về cùng thư mục với ex_3.py và chạy từ **cmd** với lệnh
+
+```shell
+python ex_3.py < meminfo.txt
+```
 
 ## 2. Đọc & ghi file
 
