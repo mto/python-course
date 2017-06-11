@@ -156,8 +156,70 @@ https://docs.python.org/3/library/functions.html#open
 open(file[, mode[, buffering[, encoding[, errors]]]])
 ```
 
-![](https://raw.githubusercontent.com/mto/python-course/master/Session2/material/builtin_methods.jpg)
+![](https://raw.githubusercontent.com/mto/python-course/master/Session2/material/builtin_methods.png)
 
 
 Nằm trong nhóm *builtin* methods và đóng vai trò căn bản trong việc đọc/ghi file trên Python
 
+__**Bài tập 4:**__
+
+*Đọc nội dung file meminfo.txt và in ra màn hình các dòng có chứa chuỗi 'Total:' hoặc 'Free:'*
+
+__Chú ý:__
+
+Để làm bài tập 4 ta cần dùng vòng lặp *while* tương tự như ở bài tập 3 và method *read_line* trên *file_object*
+
+https://docs.python.org/3.6/library/io.html#io.IOBase
+
+
+__**Bài tập 5:**__
+
+![](https://raw.githubusercontent.com/mto/python-course/master/Session2/material/sm_admin_logo.png)
+
+*Đọc nội dung file [logo.txt](https://raw.githubusercontent.com/mto/python-course/master/Session2/logo.txt) và in ra màn hình*
+
+__**Bài tập 6:**__
+
+*Đọc nội dung file [hanmactu.txt](https://raw.githubusercontent.com/mto/python-course/master/Session2/hanmactu.txt) và ghi mỗi khổ thơ ra 1 file riêng*
+
+
+__**Bài tập 7:**__
+
+*Tạo file ex_7.py có implement method 'tokenize' nhận đầu vào là file name và trả về list các từ trong file*
+
+```python
+def tokenize(fname):
+    ret = list()
+    ...
+    return ret
+
+
+print(tokenize('./hanmactu.txt'))
+```
+
+### 2.2 Wanna Cry
+
+![](https://raw.githubusercontent.com/mto/python-course/master/Session2/material/wanna_cry.png)
+
+Với các kiến thức đọc & ghi file hiện tại, ta có thể tạo một chương trình mô phỏng nguyên tắc hoạt động của virus Wanna Cry
+
+__**Bài tập 8:**__
+
+*Tạo file ex_8.py implement các method 'encrypt' và 'decrypt', tải file [wanna_cry.py]() và thư mục [test_wanna_cry]() về cùng thư mục chứa ex_8.py và chạy file wanna_cry.py*
+
+
+```python
+
+'''
+Method encrypt sửa nội dung file 'src' bằng cách thêm chuỗi 'code' vào đầu mỗi dòng
+'''
+def encrypt(src, code):
+    ...
+
+
+def decrypt(src, code, paid=False):
+    if not paid:
+       return 'Mời bạn trả tiền đã'
+    else:
+       # Khôi phục nội dung file ban đầu
+```
