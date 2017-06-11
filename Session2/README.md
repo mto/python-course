@@ -82,6 +82,7 @@ __**Bài tập 1:**__
 *Tạo file ex_1.py khi chạy lên sẽ prompt ra màn hình yêu cầu 'Nhập vào số N:' cho phép người dùng nhập vào giá trị của N, sau đó in ra stdout các số nguyên có 2 chữ số không vượt quá N*
 
 __**Bài tập 2:**__
+
 *Tạo file ex_2.py nhận input là output của câu lệnh 'dir' (trên Windows) hoặc 'ls -l' (trên Linux/Mac) và in ra màn hình toàn bộ input*
 
 __Chú ý__:
@@ -92,7 +93,13 @@ __Chú ý__:
 dir > list_file_out.txt hoặc  ls -l > list_file_out.txt
 
 python ex_2.py < list_file_out.txt
-``
+```
+
+__**Bài tập 3:**__
+
+*Tạo file ex_3.py in ra màn hình nội dung của file input ['meminfo.txt'](https://raw.githubusercontent.com/mto/python-course/master/Session2/meminfo.txt)*
+
+
 ## 2. Đọc & ghi file
 
 
