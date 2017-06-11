@@ -167,7 +167,7 @@ __**Bài tập 4:**__
 
 __Chú ý:__
 
-Để làm bài tập 4 ta cần dùng vòng lặp *while* tương tự như ở bài tập 3 và method *read_line* trên *file_object*
+Để làm bài tập 4 ta cần dùng vòng lặp *while* tương tự như ở bài tập 3 và method *readline* trên *file_object*
 
 https://docs.python.org/3.6/library/io.html#io.IOBase
 
@@ -199,13 +199,13 @@ print(tokenize('./hanmactu.txt'))
 
 ### 2.2 Wanna Cry
 
-![](https://raw.githubusercontent.com/mto/python-course/master/Session2/material/wanna_cry.png)
+![](https://raw.githubusercontent.com/mto/python-course/master/Session2/material/wanna_cry.jpg)
 
 Với các kiến thức đọc & ghi file hiện tại, ta có thể tạo một chương trình mô phỏng nguyên tắc hoạt động của virus Wanna Cry
 
 __**Bài tập 8:**__
 
-*Tạo file ex_8.py implement các method 'encrypt' và 'decrypt', tải file [wanna_cry.py]() và thư mục [test_wanna_cry]() về cùng thư mục chứa ex_8.py và chạy file wanna_cry.py*
+*Tạo file ex_8.py implement các method 'encrypt' và 'decrypt', tải file [wanna_cry.py](https://raw.githubusercontent.com/mto/python-course/master/Session2/wanna_cry.py) và thư mục [test_wanna_cry]() về cùng thư mục chứa ex_8.py và chạy file wanna_cry.py*
 
 
 ```python
@@ -220,6 +220,6 @@ def encrypt(src, code):
 def decrypt(src, code, paid=False):
     if not paid:
        return 'Mời bạn trả tiền đã'
-    else:
+    se:
        # Khôi phục nội dung file ban đầu
 ```
