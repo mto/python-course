@@ -81,6 +81,23 @@ __**Bài tập 1:**__
 
 *Tạo file ex_1.py khi chạy lên sẽ prompt ra màn hình yêu cầu 'Nhập vào số N:' cho phép người dùng nhập vào giá trị của N, sau đó in ra stdout các số nguyên có 2 chữ số không vượt quá N*
 
+### 1.3 Vòng lặp *while* trong Python
+
+```python
+while CONDITION_CHECK:
+      ...
+```
+
+Để đọc stdin gắn với file gồm nhiều dòng ta dùng vòng lặp *while*
+
+```
+line = input()
+while line != '':
+      ...
+      line = input()
+```
+
+
 __**Bài tập 2:**__
 
 *Tạo file ex_2.py nhận input là output của câu lệnh 'dir' (trên Windows) hoặc 'ls -l' (trên Linux/Mac) và in ra màn hình toàn bộ input*
@@ -104,9 +121,43 @@ __Chú ý:__
 Để chạy bài tập 3 ta cần download file meminfo về cùng thư mục với ex_3.py và chạy từ **cmd** với lệnh
 
 ```shell
-python ex_3.py < meminfo.txt
+python ex_3.py eminfo.txt
 ```
 
 ## 2. Đọc & ghi file
 
+Thực thi các đoạn mã sau
+
+* Đọc nội dung file *meminfo.txt*
+```python
+f = open('./meminfo.txt', mode='r')
+s = f.read()
+print(s)
+```
+
+* Ghi ra file *out.txt*
+```python
+dst = open('./out.txt', mode='w')
+dst.write('Blah blah')
+```
+
+* Kiểm tra *kiểu* giá trị trả về của hàm *open*
+
+```python
+f = open('./meminfo.txt', mode='r')
+print(type(f))
+```
+
+### 2.1 Method *open* trong Python
+
+https://docs.python.org/3/library/functions.html#open
+
+```python
+open(file[, mode[, buffering[, encoding[, errors]]]])
+```
+
+![](https://raw.githubusercontent.com/mto/python-course/master/Session2/material/builtin_methods.jpg)
+
+
+Nằm trong nhóm *builtin* methods và đóng vai trò căn bản trong việc đọc/ghi file trên Python
 
