@@ -121,7 +121,7 @@ __Chú ý:__
 Để chạy bài tập 3 ta cần download file meminfo về cùng thư mục với ex_3.py và chạy từ **cmd** với lệnh
 
 ```shell
-python ex_3.py eminfo.txt
+python ex_3.py < meminfo.txt
 ```
 
 ## 2. Đọc & ghi file
