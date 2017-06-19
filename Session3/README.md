@@ -168,7 +168,7 @@ pattern.findall(s)
 
 __**Bài tập 8:**__
 
-*Viết chương trình đọc nội dung file ![evnexpress.txt]() và in ra màn hình các số nằm trong nội dung của file*
+*Viết chương trình đọc nội dung file [evnexpress.txt](https://raw.githubusercontent.com/mto/python-course/master/Session3/evnexpress.txt) và in ra màn hình các số nằm trong nội dung của file*
 
 ### 3.2 Thay thế các *cấu trúc* trong một đoạn text
 
