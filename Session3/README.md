@@ -84,10 +84,12 @@ Khi đọc/ghi file binary (mà không phải file text) thì chỉ có thao tá
 
 __**Bài tập 5:**__
 
-*Tạo file ex_5.py copy file ảnh maria_ozawa.jpg sang file maria_ozawa_bis.jpg *
+*Tạo file ex_5.py copy file ảnh maria_ozawa.jpg sang file maria_ozawa_bis.jpg*
 
 
 ### 2.2 Biểu diễn file binary dưới dạng text
+
+![](https://raw.githubusercontent.com/mto/python-course/master/Session3/material/pk_base64.png)
 
 Cách phổ biến để biểu diễn file binary dưới dạng text (ví dụ cho bài toán tìm kiếm) là dùng *base64*
 
@@ -96,6 +98,8 @@ __**Bài tập 6:**__
 *Tạo file Python ex_6.py encode nội dung của maria_ozawa.jpg sang dạng text dùng base64 và lưu vào file maria_ozawa_b64.txt*
 
 ### 2.3 File checksum
+
+![](https://raw.githubusercontent.com/mto/python-course/master/Session3/material/md5_checksum.png)
 
 So sánh MD5 checksum là cách làm phổ biến để kiểm tra tính toàn vẹn của file trong quá trình download
 
@@ -200,7 +204,7 @@ print(pattern.sub(replace, s))
 
 __**Bài tập 9:**__
 
-*Viết chương trình đọc nội dung file ![frozen.srt]() và thay thế các từ *snow*, *frozen*, *icy* bằng từ viết hoa. Sau đó ghi nội dung mới này ra file khác*
+*Viết chương trình đọc nội dung file ![frozen.srt](https://raw.githubusercontent.com/mto/python-course/master/Session3/frozen.srt) và thay thế các từ *snow*, *frozen*, *icy* bằng từ viết hoa. Sau đó ghi nội dung mới này ra file khác*
 
 ### 3.3 Capturing group
 
