@@ -9,9 +9,6 @@
 
 ### 1.1 *Pip* & *PyPI*
 
-* Pip: Công cụ quản lý third-party dependencies trong Python
-* PyPI: Remote repo chứa third-party dependencies
-
 Tạo file *requirements.txt* với nội dung
 
 ```shell
@@ -24,7 +21,10 @@ và chạy command sau trên console
 pip install -r requirements.txt
 ```
 
-__Dependency Management Tools__
+
+* Pip: Công cụ quản lý third-party dependencies trong Python
+* PyPI: Remote repo chứa third-party dependencies
+
 
 | Programming Language | Dependency Management | DM files |
 |---|---|---|
@@ -33,7 +33,8 @@ __Dependency Management Tools__
 |C/C++|CMake/Ninja|.cmake|
 |JavaScript/NodeJS|npm|package.json|
 |PHP|Composer|composer.json|
-|.NET|Nuget||
+|Ruby|Bundler|Gemfile|
+|C#|Nuget|.csproj|
 
 ### 1.2 *site-packages* folder
 
@@ -76,6 +77,11 @@ https://pypi.python.org/pypi/beautifulsoup4
 
 ### 2.1 Tìm hiểu *HTTP protocol* qua trình duyệt Firefox/Chrome
 
+https://tools.ietf.org/html/rfc2616
+
+Specification của HTTP protocol khoảng 200 trang!!!
+
+NHƯNG:
 **Cách tìm hiểu các kiến thức cơ bản về HTTP nhanh nhất cho người chưa biết gì là thông qua trình duyệt**
 
 ![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/vnexpress_firebug.png)
@@ -103,9 +109,10 @@ __**Bài tập 6:**__
 ![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/virtual_environment.jpg)
 
 __Vấn đề với Pip:__
+
 *Pip cài đặt third-party dependencies trực tiếp vào thư mục sites-package*
 
--> Dependencies versions conflict
+-> Dependencies versions conflict RISK
 
 ### 3.1 Cài đặt *virtualenv*
 
@@ -139,8 +146,17 @@ __**Công nghệ:**__
 * requests
 * sqlalchemy
 
-### 4.1 Tạo project
+### 4.1 Tạo project & virtual environment
 
-### 4.2 Tạo Virtual Environment
+* Tạo thư mục *smart-admin* có chứa file *requirements.txt*
+* Tạo virtualenv *smart-admin* trong thư mục VIRTUAL_ENVs
 
-### 4.3 Tạo GitHub repo
+### 4.2 Tạo GitHub repo
+
+Tạo repository *smart-admin* trên GitHub với tài khoản đã đăng ký
+
+```
+cd smart-admin
+git init
+git remote add origin git@github.com:{account_name}/smart-admin.git
+```
