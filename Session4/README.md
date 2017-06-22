@@ -84,6 +84,8 @@ __**Bài tập 3:**__
 
 *Xem các HTTP requests bằng công cụ Firebug/Inspect trên FireFox/Chrome khi truy cập vào trang *e.vnexpress.net**
 
+
+
 __**Bài tập 4:**__
 
 *Bật chức năng dịch của Google với trang *e.vnexpress.net* và xem các AJAX requests liên quan đến chức năng dịch*
@@ -92,22 +94,40 @@ __**Bài tập 5:**__
 
 *Lấy ra danh sách video links trên trang *video.vnexpress.net**
 
-### 2.2 *OAuth2 protocol*
+__**Bài tập 6:**__
 
-![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/pinterest_consent_screen.png)
-
+*Tải 5 videos đầu tiên trong danh sách videos ở bài tập 5 về máy, tên file được cắt ra từ link video*
 
 ## 3 Virtual Environment
 
 ![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/virtual_environment.jpg)
 
+__Vấn đề với Pip:__
+*Pip cài đặt third-party dependencies trực tiếp vào thư mục sites-package*
+
+-> Dependencies versions conflict
+
 ### 3.1 Cài đặt *virtualenv*
 
 https://virtualenv.pypa.io/en/stable/
 
+```shell
+mkdir VIRTUAL_ENVs
+cd VIRTUAL_ENVs
+
+virtualenv ${YOUR_VIRTUAL_ENV_NAME}
+source ${YOUR_VIRTUAL_ENV_NAME}/bin/activate
+```
+
+__**Bài tập 7:**__
+
+*Cài đặt *virtualenv* với tên *python-course* và chạy lại các bài tập trước trên virtual environment này*
+
 ### 3.2 Cài đặt *VirtualEnv* trên *PyCharm*
 
 ![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/venv_pycharm.png)
+
+Vào Preferences->Project -> Project-Interpreter để mở cửa sổ cài đặt virtual environment
 
 ## 4 **Smart Admin**
 
