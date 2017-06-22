@@ -12,15 +12,32 @@
 * Pip: Công cụ quản lý third-party dependencies trong Python
 * PyPI: Remote repo chứa third-party dependencies
 
-```shell
-pip install -r requirements.txt
-```
+Tạo file *requirements.txt* với nội dung
 
 ```shell
 requests==2.13.0
 ```
 
-### 1.2 *Site-packages* folder
+và chạy command sau trên console
+
+```shell
+pip install -r requirements.txt
+```
+
+__Dependency Management Tools__
+
+| Programming Language | Dependency Management | DM files |
+|---|---|---|
+|Python|pip|requirements.txt|
+|Java|Maven/Gradle|pom.xml/build.gradle|
+|C/C++|CMake/Ninja|.cmake|
+|JavaScript/NodeJS|npm|package.json|
+|PHP|Composer|composer.json|
+|.NET|Nuget||
+
+### 1.2 *site-packages* folder
+
+*Third-party dependencies được cài vào thư mục *site-packages**
 
 ### 1.3 Phương pháp lựa chọn libraries
 
@@ -28,28 +45,60 @@ requests==2.13.0
 * Tần suất release trên GitHub
 * *license* & *pricing*
 
-## 2 Virtual Environment
+## 2 *requests* library
 
-### 2.1 Cài đặt *virtualenv*
+http://docs.python-requests.org/en/master/
 
-### 2.2 Cài đặt *VirtualEnv* trên *PyCharm*
+Thực thi đoạn code sau đây
 
-## 3 *requests* library
+```python
+import requests
 
-### 3.1 Tìm hiểu *HTTP protocol* qua trình duyệt Firefox/Chrome
+res = requests.get('http://google.com')
+print(res.text)
+print("Check type")
+print(type(res))
+```
+
+__**Bài tập 1:**__
+
+*Viết script dùng *requests* lấy và in ra màn hình content HTML nội dung trang chủ trang VNExpress*
+
+__**Bài tập 2:**__
+
+*Viết script lấy nội dung 1 bài báo trong mục *Thời sự* trên VNExpress*
+
+__**Chú ý:**__
+
+Có thể dùng thư viện *beautifulsoup4* cho việc bóc tách dữ liệu HTML
+
+https://pypi.python.org/pypi/beautifulsoup4
+
+### 2.1 Tìm hiểu *HTTP protocol* qua trình duyệt Firefox/Chrome
 
 ![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/vnexpress_firebug.png)
 
-__**Bài tập 6:**__
+__**Bài tập 3:**__
 
 *Xem các HTTP requests bằng công cụ Firebug/Inspect trên FireFox/Chrome khi truy cập vào trang *e.vnexpress.net**
 
-__**Bài tập 7:**__
+__**Bài tập 4:**__
 
 *Bật chức năng dịch của Google với trang *e.vnexpress.net* và xem các AJAX requests liên quan đến chức năng dịch*
 
-### 3.2 *OAuth2 protocol*
+### 2.2 *OAuth2 protocol*
 
+## 3 Virtual Environment
+
+![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/virtual_environment.jpg)
+
+### 3.1 Cài đặt *virtualenv*
+
+https://virtualenv.pypa.io/en/stable/
+
+### 3.2 Cài đặt *VirtualEnv* trên *PyCharm*
+
+![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/venv_pycharm.png)
 
 ## 4 **Smart Admin**
 
