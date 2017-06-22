@@ -5,15 +5,28 @@
 
 ## 1 Third-party libraries
 
+![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/pypi_index.png)
+
 ### 1.1 *Pip* & *PyPI*
+
+* Pip: Công cụ quản lý third-party dependencies trong Python
+* PyPI: Remote repo chứa third-party dependencies
+
+```shell
+pip install -r requirements.txt
+```
+
+```shell
+requests==2.13.0
+```
 
 ### 1.2 *Site-packages* folder
 
 ### 1.3 Phương pháp lựa chọn libraries
 
 * *Vừa đủ* với nhu cầu dùng
-* README & tần suất release trên GitHub
-* Khảo sát vấn đề *pricing*
+* Tần suất release trên GitHub
+* *license* & *pricing*
 
 ## 2 Virtual Environment
 
@@ -25,7 +38,7 @@
 
 ### 3.1 Tìm hiểu *HTTP protocol* qua trình duyệt Firefox/Chrome
 
-![](https://raw.githubusercontent.com/mto/python-course/master/Session3/material/vnexpress_firebug.png)
+![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/vnexpress_firebug.png)
 
 __**Bài tập 6:**__
 
