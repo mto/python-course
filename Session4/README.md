@@ -1,6 +1,6 @@
 * Third-party libraries
-* Virtual Environment
 * *requests* library
+* Virtual Environment
 * **Smart Admin**
 
 ## 1 Third-party libraries
@@ -134,7 +134,7 @@ __**Bài tập 7:**__
 
 ![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/venv_pycharm.png)
 
-Vào Preferences->Project -> Project-Interpreter để mở cửa sổ cài đặt virtual environment
+Vào Preferences->Project -> Project-Interpreter -> Click Setting để cài đặt virtual environment cho PyCharm project
 
 ## 4 **Smart Admin**
 
