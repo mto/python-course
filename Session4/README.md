@@ -76,6 +76,8 @@ https://pypi.python.org/pypi/beautifulsoup4
 
 ### 2.1 Tìm hiểu *HTTP protocol* qua trình duyệt Firefox/Chrome
 
+**Cách tìm hiểu các kiến thức cơ bản về HTTP nhanh nhất cho người chưa biết gì là thông qua trình duyệt**
+
 ![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/vnexpress_firebug.png)
 
 __**Bài tập 3:**__
@@ -86,7 +88,14 @@ __**Bài tập 4:**__
 
 *Bật chức năng dịch của Google với trang *e.vnexpress.net* và xem các AJAX requests liên quan đến chức năng dịch*
 
+__**Bài tập 5:**__
+
+*Lấy ra danh sách video links trên trang *video.vnexpress.net**
+
 ### 2.2 *OAuth2 protocol*
+
+![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/pinterest_consent_screen.png)
+
 
 ## 3 Virtual Environment
 
