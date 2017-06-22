@@ -46,7 +46,7 @@ pip install -r requirements.txt
 * Tần suất release trên GitHub
 * *license* & *pricing*
 
-## 2 *requests* library
+## 2 Library *requests*
 
 http://docs.python-requests.org/en/master/
 
@@ -60,6 +60,8 @@ print(res.text)
 print("Check type")
 print(type(res))
 ```
+
+**Requests: HTTP client library**
 
 __**Bài tập 1:**__
 
@@ -134,7 +136,7 @@ __**Bài tập 7:**__
 
 ![](https://raw.githubusercontent.com/mto/python-course/master/Session4/material/venv_pycharm.png)
 
-Vào Preferences->Project -> Project-Interpreter -> Click Setting để cài đặt virtual environment cho PyCharm project
+Vào Preferences->Project -> Project-Interpreter -> Click Setting để cài đặt virtual environment cho PyCharm
 
 ## 4 **Smart Admin**
 
