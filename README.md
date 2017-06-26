@@ -37,13 +37,13 @@ Mỗi buổi học học viên sẽ được giao các bài tập thực hành g
 
 10. Khái niệm Virtual Environment
 
-11. Setup project **Smart Admin**
+11. Setup project **Facebook Console**
 
 12. Làm việc với [**requests**](http://docs.python-requests.org/en/master/) library
 
 ### Bài 5:
 
-13. Làm việc với RESTful API thông qua **requests** (phát triển tính năng cho **Smart Admin**)
+13. Làm việc với RESTful API thông qua **requests** (phát triển tính năng cho **Facebook Console**)
 
 14. Xuất dữ liệu ra các định dạng Excel/csv
 
@@ -53,15 +53,15 @@ Mỗi buổi học học viên sẽ được giao các bài tập thực hành g
 
 16. Kết nối với MySQL thông qua [**sqlalchemy**](https://www.sqlalchemy.org/) library
 
-17. Cải tiến ứng dụng **Smart Admin** cho phép đọc, ghi dữ liệu từ MySQL
+17. Cải tiến ứng dụng **Facebook Console** cho phép đọc, ghi dữ liệu từ MySQL
 
 ### Bài 7:
 
 18. Làm quen với module [**argparse**](https://docs.python.org/3/library/argparse.html) trong Python core
 
-19. Cải tiến ứng dụng **Smart Admin** cho phép thêm options từ command line
+19. Cải tiến ứng dụng **Facebook Console** cho phép thêm options từ command line
 
-20. Đóng gói ứng dụng **Smart Admin**
+20. Đóng gói ứng dụng **Facebook Console**
 
 ### Bài 8:
 

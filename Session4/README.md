@@ -30,7 +30,7 @@ pip install -r requirements.txt
 |---|---|---|
 |Python|pip|requirements.txt|
 |Java|Maven/Gradle|pom.xml/build.gradle|
-|C/C++|CMake/Ninja|.cmake|
+|C/C++|CMake/Ninja|Makefile/.ninja|
 |JavaScript/NodeJS|npm|package.json|
 |PHP|Composer|composer.json|
 |Ruby|Bundler|Gemfile|
@@ -138,27 +138,27 @@ __**Bài tập 7:**__
 
 Vào Preferences->Project -> Project-Interpreter -> Click Setting để cài đặt virtual environment cho PyCharm
 
-## 4 **Smart Admin**
+## 4 **FB Console**
 
-*Ứng dụng làm việc với VMWare API phát triển đến hết khoá học*
+*Ứng dụng làm việc với Facebook API phát triển đến hết khoá học*
 
 __**Công nghệ:**__
 
-* PyQt5
+* Python Prompt Toolkit
 * requests
 * sqlalchemy
 
 ### 4.1 Tạo project & virtual environment
 
-* Tạo thư mục *smart-admin* có chứa file *requirements.txt*
-* Tạo virtualenv *smart-admin* trong thư mục VIRTUAL_ENVs
+* Tạo thư mục *fbcli* có chứa file *requirements.txt*
+* Tạo virtualenv *fbcli* trong thư mục VIRTUAL_ENVs
 
 ### 4.2 Tạo GitHub repo
 
-Tạo repository *smart-admin* trên GitHub với tài khoản đã đăng ký
+Tạo repository *fbcli* trên GitHub với tài khoản đã đăng ký
 
 ```
-cd smart-admin
+cd fbcli
 git init
-git remote add origin git@github.com:{account_name}/smart-admin.git
+git remote add origin git@github.com:{account_name}/fbcli.git
 ```
