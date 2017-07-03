@@ -1,7 +1,7 @@
 * Third-party libraries
 * *requests* library
 * Virtual Environment
-* **Smart Admin**
+* **FB Console**
 
 ## 1 Third-party libraries
 

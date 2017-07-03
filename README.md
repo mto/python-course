@@ -43,11 +43,11 @@ Mỗi buổi học học viên sẽ được giao các bài tập thực hành g
 
 ### Bài 5:
 
-13. Làm việc với RESTful API thông qua **requests** (phát triển tính năng cho **Facebook Console**)
+13. Làm việc với JSON trong Python
 
-14. Xuất dữ liệu ra các định dạng Excel/csv
+14. Làm việc với Facebook Graph API thông qua **requests** (phát triển tính năng cho **Facebook Console**)
 
-15. Debug và logging trong Python
+15. Debug trong Python
 
 ### Bài 6:
 
