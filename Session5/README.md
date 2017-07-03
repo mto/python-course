@@ -82,7 +82,7 @@ __NOTE:__
 
 Truy cập vào trang *Graph API Explorer* với link
 
-![](https://raw.githubusercontent.com/mto/python-course/master/Session5/material/fb_graph_api.png)
+https://developers.facebook.com/tools/explorer
 
 * Click *Get Token*
 * Chọn *Get User Access Token*
