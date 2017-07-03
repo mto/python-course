@@ -58,6 +58,16 @@ print(json.dumps(obj))
 
 *Dùng *json* module để fork nội dung file **fb_sample.json** sang file **fb_sample_bis.json**, trong đó các trường **actions** được lược bỏ*
 
+__Chú ý:__
+
+Có thể dùng *comprehension* trong Python để copy *có chọn lọc* dictionary object trong Python
+
+```python
+d = DICTIONARY_LOAD_FROM_JSON
+
+cpd = {k:d[k] for k in d.keys() if k != 'actions'}
+```
+
 ## 2. Facebook Graph API
 
 ![](https://raw.githubusercontent.com/mto/python-course/master/Session5/material/fb_graph_api.png)
