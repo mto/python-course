@@ -55,8 +55,8 @@ https://www.tutorialspoint.com/sql/
 
 Ứng dụng Python tương tác với RDBMS thông qua một trong 2 mô hình:
 
-* SQLAlchemy Core: Low-level API, pure SQL queries
-* SQLAlchemy ORM: High-level API, object-oriented
+* __SQLAlchemy Core__: Low-level API, pure SQL queries
+* __SQLAlchemy ORM__: High-level API, object-oriented
 
 __Chú ý:__
 
@@ -118,7 +118,7 @@ for row in result:
 ```
 
 
-Tương tác DB <-> Tạo SQL query
+__Tương tác DB <-> Tạo SQL query__
 
 https://www.tutorialspoint.com/sql/
 
@@ -130,7 +130,7 @@ https://www.tutorialspoint.com/sql/
 
 **__Bài tập 5:__**
 
-*Viết chương trình nhận thông tin **first_name, last_name, email, position** từ console và tạo record mới trong bảng **employees**
+*Viết chương trình nhận thông tin **first_name, last_name, email, position** từ console và tạo record mới trong bảng **employees***
 
 **__Bài tập 6:__**
 
